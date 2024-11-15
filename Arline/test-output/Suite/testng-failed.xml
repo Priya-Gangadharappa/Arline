@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SeleniumPackage2.SeleniumProject2.SeatSelection_8Ease">
+        <methods>
+          <include name="Seatselection"/>
+          <include name="Launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- SeleniumPackage2.SeleniumProject2.SeatSelection_8Ease -->
+      <class name="SeleniumPackage2.SeleniumProject2.OneWay_4Ease">
+        <methods>
+          <include name="oneway"/>
+          <include name="Launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- SeleniumPackage2.SeleniumProject2.OneWay_4Ease -->
+      <class name="SeleniumPackage2.SeleniumProject2.LoginSearchLogout_12Ease">
+        <methods>
+          <include name="EndtoEnd"/>
+          <include name="Launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- SeleniumPackage2.SeleniumProject2.LoginSearchLogout_12Ease -->
+      <class name="SeleniumPackage2.SeleniumProject2.InvalidLogin_3Ease">
+        <methods>
+          <include name="Invalid"/>
+          <include name="Launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- SeleniumPackage2.SeleniumProject2.InvalidLogin_3Ease -->
+      <class name="SeleniumPackage2.SeleniumProject2.DomesticRound_14Ease">
+        <methods>
+          <include name="Domestic"/>
+          <include name="Launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- SeleniumPackage2.SeleniumProject2.DomesticRound_14Ease -->
+      <class name="SeleniumPackage2.SeleniumProject2.ValidateBookButton_11Ease">
+        <methods>
+          <include name="ValidateDetails"/>
+          <include name="Launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- SeleniumPackage2.SeleniumProject2.ValidateBookButton_11Ease -->
+      <class name="SeleniumPackage2.SeleniumProject2.SearchResultPage_10Ease">
+        <methods>
+          <include name="search"/>
+          <include name="Launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- SeleniumPackage2.SeleniumProject2.SearchResultPage_10Ease -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
